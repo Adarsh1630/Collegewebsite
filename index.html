@@ -2,10 +2,209 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY PROJECT</title>
+    <title>college website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fontawesome/css/all.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css."> -->
+    
 </head>
 <body>
+    <section class="header">
+        <nav id="navbar">
+            <a href="index.html"><img src="image/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>An AKTU's Afficilated University</h1>
+            <p>Since its inception in the year 1995 with just one school, Maharana Pratap Group of Institutions (MPGI), has diversified and widened its horizons to 5 schools, <br> 14 colleges and one university. It has definitely emerged as one of the best colleges in Kanpur as well as the East UP Region.</p>
+            <a href="about.html" class="visit-btn">Visit Here To know more</a>
+        </div>
+
+    </section>
+
+    <!-- // javascript for toggle menu -->
+<script>
+
+var navlinks=document.getElementById("navlinks");
+
+function showMenu(){
+    navlinks.style.right="0";
+}
+function hideMenu(){
+    navlinks.style.right="-200px";
+}
+
+
+</script>
+
+<!-- course  -->
+
+<section class="course">
+    <h1>Courses We offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, dolores aliquam magni tempora dolorum deserunt quibusdam est ea quaerat officia. Doloremque enim placeat maxime sed. Dolor nam nisi dolores quidem, unde sunt sapiente reiciendis optio omnis, quos incidunt alias eaque?</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi blanditiis, dignissimos quod ducimus repellat velit assumenda distinctio maiores nihil ipsa?</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi blanditiis, dignissimos quod ducimus repellat velit assumenda distinctio maiores nihil ipsa?</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Gratuation</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi blanditiis, dignissimos quod ducimus repellat velit assumenda distinctio maiores nihil ipsa?</p>
+        </div>
+    </div>
+</section>
+
+<!-- campus -->
+
+<section class="campus">
+    <h1>Our Campus</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, quisquam.</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="image/mpec.webp" alt="campus">
+            <div class="layer">
+            <h3>MPEC</h3>
+        </div>
+        </div>  
+        <div class="campus-col">
+            <img src="image/block.webp" alt="campus">
+            <div class="layer">
+            <h3>MPCP</h3>
+        </div>
+        </div>
     
+        <div class="campus-col">
+            <img src="image/MPCPS.webp" alt="campus">
+            <div class="layer">
+            <h3>MPCPS</h3>
+        </div>
+        </div>
+    </div>   
+</section>
+
+
+<!-- facilities -->
+
+
+<section class="facilities">
+
+   <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat provident aspernatur eveniet sapiente, cupiditate officia facere quisquam, amet architecto laborum similique laudantium voluptatum autem distinctio nam illum tempore optio possimus!</p>
+    
+    <div class="row">
+        <div class="facilities-col">
+            <img src="image/annapurna.webp" alt="facilities">
+            <h3>A large Mess</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, reprehenderit. Fuga voluptates exercitationem fugit quisquam expedita est accusantium itaque ratione!</p>
+
+        </div>
+        <div class="facilities-col">
+            <img src="image/library.webp" alt="facilities">
+            <h3>A large library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, reprehenderit. Fuga voluptates exercitationem fugit quisquam expedita est accusantium itaque ratione!</p>
+
+        </div>
+        <div class="facilities-col">
+            <img src="image/basketball.jpg" alt="facilities">
+            <h3>A Cemented Court</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, reprehenderit. Fuga voluptates exercitationem fugit quisquam expedita est accusantium itaque ratione!</p>
+
+        </div>
+        
+    </div>
+   
+     
+</section>
+
+<!-- testimonial -->
+
+<section class="testimonial">
+    <h1>What Our Student Says</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, reprehenderit. Fuga voluptates exercitationem fugit quisquam expedita est accusantium itaque ratione!</p>
+   
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="image/adarsh.webp" alt="user">
+            <div>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae blanditiis at voluptates iusto fugit a dolor dolorem pariatur suscipit vero?</p>
+               <h3>Adarsh Sharma</h3>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star-half-stroke"></i>
+               <i class="fa-solid fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="image/aditya.jpg" alt="user">
+            <div>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae blanditiis at voluptates iusto fugit a dolor dolorem pariatur suscipit vero?</p>
+               <h3>Aditya Singh</h3>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star"></i>
+               <i class="fa-solid fa-star-o"></i>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Call To action -->
+
+<section class="cta">
+    <h1>Enroll For Best Courses</h1>
+    <a href="contact.html" class="visit-btn">CONTACT US</a>
+
+</section>
+
+
+<!-- footer -->
+
+<section class="footer">
+
+  <h4>About Us</h4>  
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestias recusandae dolor fugiat, blanditiis necessitatibus minima eius? Totam accusantium <br> fuga perferendis molestiae quis culpa magni veniam sapiente aperiam? Doloribus officia optio, alias fuga asperiores cupiditate deleniti tempore commodi nihil aliquam.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+
+
+
+
+
+    </div>
+   <p>Made By Adarsh Sharma</p>
+
+</section>
+
+
+
+
 </body>
 </html>
